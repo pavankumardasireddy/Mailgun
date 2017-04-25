@@ -1,0 +1,26 @@
+{
+  "name": "nodemail",
+  "version": "1.0.0",
+  "description": "sending emails via mailgun.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index"
+  },
+  "dependencies": {
+    "body-parser": "latest",
+    "ejs": "latest",
+    "express": "latest",
+    "morgan": "latest",
+    "mailgun-js":"latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/ravvavamsi"
+  },
+  "keywords": [
+    "nodejs",
+    "mailgun"
+  ],
+  "author": "RavvaVamsi",
+  "license": "ISC"
+}

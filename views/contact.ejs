@@ -1,0 +1,36 @@
+<% include header.ejs %>
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		 <h3 class="panel-title">Conact Us</h3>
+	</div>
+	<form method="POST" action="contact" role="form">
+		<div class="panel-body">
+			<div class="form-group">
+				<label for="userName">Your Name</label>
+				<input type="text" class="form-control" id="userName"
+				  name="userName" placeholder="Enter Your Name" required>
+			</div>
+			<div class="form-group">
+				<label for="Email id">Email id</label>
+				<input type="email" class="form-control" id="Email id"
+				  name="Email id" placeholder="Enter Your Email id" required>
+			</div>
+			<div class="form-group">
+				<label for="Mobile No">Mobile No</label>
+				<input type="number" class="form-control" id="Mobile No"
+				  name="Mobile No" placeholder="Enter Your Mobile No" required>
+			</div>
+
+
+			<div class="form-group">
+			<label for="content">Enter Your Message</label>
+			<textarea class="form-control" id="body" name="body"
+			placeholder="write your message to admin" rows="3" required></textarea></div>
+			<div class="form-group">
+				<input type="submit" value="Submit" class="btn btn-primary">
+			</div>
+	</div>
+	</form>
+</div>
+<% include footer.ejs %>
